@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-void-bg text-white overflow-hidden m-0 p-0 font-sans;
+  }
+}
+
+/* Glassmorphism utility class */
+.glass-panel {
+  @apply bg-black/40 backdrop-blur-md border border-white/10 shadow-2xl rounded-2xl;
+}
